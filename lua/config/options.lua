@@ -36,3 +36,5 @@ opt.shellquote = '"'
 opt.shellxquote = ""
 
 opt.conceallevel = 0
+
+vim.g.vscode = true

@@ -13,4 +13,7 @@ return {
       desc = "Markdown Preview",
     },
   },
+  config = function()
+    vim.cmd([[do FileType]])
+  end,
 }

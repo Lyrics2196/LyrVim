@@ -1,5 +1,8 @@
 return {
   "folke/tokyonight.nvim",
   lazy = true,
-  opts = { style = "night" },
+  opts = {
+    style = "moon",
+    transparent = not vim.g.neovide,
+  },
 }

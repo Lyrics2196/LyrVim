@@ -24,8 +24,6 @@ opt.splitbelow = true
 opt.ignorecase = true
 opt.smartcase = true
 
-vim.g.lazyvim_python_lsp = "pyright"
-
 opt.guifont = { "JetBrainsMono Nerd Font", "微软雅黑" }
 opt.list = true
 opt.listchars = { space = "·" }
@@ -38,6 +36,8 @@ opt.shellxquote = ""
 opt.conceallevel = 0
 
 opt.spell = false
+
+vim.g.lazyvim_python_lsp = "pyright"
 
 vim.g.neovide_title_background_color =
   string.format("%x", vim.api.nvim_get_hl(0, { id = vim.api.nvim_get_hl_id_by_name("Normal") }).bg)

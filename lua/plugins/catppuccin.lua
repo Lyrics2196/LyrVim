@@ -41,6 +41,7 @@ return {
       treesitter_context = true,
       which_key = true,
     },
+    transparent_background = not vim.g.neovide,
   },
   specs = {
     {

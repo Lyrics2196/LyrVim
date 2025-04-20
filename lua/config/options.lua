@@ -16,7 +16,8 @@ opt.wrap = false
 
 opt.cursorline = true
 
-opt.mouse:append("a")
+opt.mouse = ""
+opt.clipboard = ""
 
 opt.splitright = true
 opt.splitbelow = true
@@ -24,7 +25,7 @@ opt.splitbelow = true
 opt.ignorecase = true
 opt.smartcase = true
 
-opt.guifont = { "JetBrainsMono Nerd Font", "微软雅黑" }
+opt.guifont = { "Maple Mono NF CN" }
 opt.list = true
 opt.listchars = { space = "·" }
 
@@ -36,8 +37,6 @@ opt.shellxquote = ""
 opt.conceallevel = 0
 
 opt.spell = false
-
-vim.g.lazyvim_python_lsp = "pyright"
 
 vim.g.neovide_title_background_color =
   string.format("%x", vim.api.nvim_get_hl(0, { id = vim.api.nvim_get_hl_id_by_name("Normal") }).bg)

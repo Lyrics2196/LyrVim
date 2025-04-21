@@ -3,7 +3,7 @@ return {
   opts = {
     ensure_installed = {
       "pyright",
-      "autopep8",
+      "black",
     },
   },
 }

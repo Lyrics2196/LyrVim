@@ -16,7 +16,7 @@ opt.wrap = false
 
 opt.cursorline = true
 
-opt.mouse = ""
+opt.mouse = "a"
 opt.clipboard = ""
 
 opt.splitright = true

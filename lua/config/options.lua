@@ -16,7 +16,7 @@ opt.wrap = false
 
 opt.cursorline = true
 
-opt.mouse = "a"
+opt.mouse = ""
 opt.clipboard = ""
 
 opt.splitright = true
@@ -37,6 +37,7 @@ opt.shellxquote = ""
 opt.conceallevel = 0
 
 opt.spell = false
+opt.list = false
 
 vim.g.neovide_title_background_color =
   string.format("%x", vim.api.nvim_get_hl(0, { id = vim.api.nvim_get_hl_id_by_name("Normal") }).bg)

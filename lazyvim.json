@@ -1,6 +1,6 @@
 {
   "extras": [
-
+    "lazyvim.plugins.extras.editor.mini-files"
   ],
   "install_version": 7,
   "news": {

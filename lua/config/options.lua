@@ -43,3 +43,6 @@ vim.g.neovide_title_background_color =
   string.format("%x", vim.api.nvim_get_hl(0, { id = vim.api.nvim_get_hl_id_by_name("Normal") }).bg)
 
 vim.g.neovide_title_text_color = "white"
+
+vim.env.HTTPS_PROXY = "http://127.0.0.1:10808" -- 替换为你的代理端口
+vim.env.HTTP_PROXY = "http://127.0.0.1:10808"

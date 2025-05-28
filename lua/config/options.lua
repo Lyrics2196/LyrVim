@@ -29,11 +29,6 @@ opt.guifont = { "Maple Mono NF CN" }
 opt.list = true
 opt.listchars = { space = "·" }
 
-opt.shell = "pwsh"
-opt.shellcmdflag = "-command"
-opt.shellquote = '"'
-opt.shellxquote = ""
-
 opt.conceallevel = 0
 
 opt.spell = false

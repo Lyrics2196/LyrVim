@@ -20,3 +20,12 @@ vim.api.nvim_create_autocmd("FileType", {
     vim.opt_local.spell = false
   end,
 })
+
+vim.api.nvim_create_autocmd("FileType", {
+  group = augroup("tab_stop"),
+  pattern = { "lua" },
+  callback = function()
+    vim.opt_local.tabstop = 2
+    vim.opt_local.shiftwidth = 2
+  end,
+})

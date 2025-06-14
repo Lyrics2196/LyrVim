@@ -26,18 +26,17 @@ opt.ignorecase = true
 opt.smartcase = true
 
 opt.guifont = { "Maple Mono NF CN" }
-opt.list = true
-opt.listchars = { space = "·" }
+opt.list = false
+-- opt.listchars = { space = "·" }
 
-opt.shell = "pwsh"
-opt.shellcmdflag = "-command"
-opt.shellquote = '"'
-opt.shellxquote = ""
+-- opt.shell = "pwsh"
+-- opt.shellcmdflag = "-command"
+-- opt.shellquote = '"'
+-- opt.shellxquote = ""
 
 opt.conceallevel = 0
 
 opt.spell = false
-opt.list = false
 
 vim.g.neovide_title_background_color =
   string.format("%x", vim.api.nvim_get_hl(0, { id = vim.api.nvim_get_hl_id_by_name("Normal") }).bg)

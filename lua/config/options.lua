@@ -45,3 +45,5 @@ vim.g.neovide_title_text_color = "white"
 
 vim.env.HTTPS_PROXY = "http://127.0.0.1:10808" -- 替换为你的代理端口
 vim.env.HTTP_PROXY = "http://127.0.0.1:10808"
+
+vim.g.loaded_perl_provider = 0
